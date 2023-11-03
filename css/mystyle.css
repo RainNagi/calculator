@@ -127,12 +127,12 @@ input[type="button"]{
     }
     input[type="text"]{
         border: 2px solid white;
-        padding: 15px 17px;
+        padding: 22px 17px;
         font-size: 20px;
     }
     body{
         background-image: url(Background1.jpg); 
         background-repeat: no-repeat;
-        background-size:cover;
+        background-size: cover;
     }
 }
