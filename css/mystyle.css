@@ -1,0 +1,138 @@
+
+body{
+    background-image: url(Background.jpg); 
+    background-repeat: no-repeat; 
+    background-size: 100% 100%; 
+    background-attachment: fixed;
+    background-size:cover;
+}
+th.name{
+    font-family: cursive;
+    text-align: left;
+    color: white;
+    font-weight: bold;
+    font-size: 30px;
+}
+th.calculator{
+    font-family: sans-serif;
+    color: white;
+    text-align: right;
+}
+td{
+    padding: 3px;
+}
+table{
+    border-radius: 3px;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 3px solid black;
+    padding: 1%;
+    background-color:#012f49;
+}
+input[type="text"]{
+    font-size: 40px;
+    background-color: #e7eb90;
+    width: 86%;
+    padding: 28px 30px;
+    font-weight: bold;
+    border: 5px solid white;
+    border-radius: 5px;
+    text-align: right;
+}
+input[type="button"]{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    width: 100%;
+    padding: 20px 50px;
+    font-size: 25px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+}
+.numbers{
+    background-color: #0582ca;
+    color: white;
+}
+.numbers:hover {
+    background-color: #006594d2;
+    color: white;
+}
+.numbers:active {
+    background-color:#00BFFF;
+    color: black;
+}
+.operations{
+    background-color: #5aaa95;
+}
+.operations:hover {
+    background-color: #037171
+}
+.operations:active {
+    background-color: #03312e;
+    color: white;
+}
+#del{
+    padding: 20px 25px;
+}
+#clear{
+    padding: 20px 40px;
+}
+.delete{
+    background-color: #FF0000;
+}
+.delete:hover {
+    background-color: #FFA500
+}
+.delete:active {
+    background-color: #FFC0CB;
+    color: black;
+}
+.others{
+    background-color: rgb(32, 0, 211);
+    color: white;
+}
+.others:hover {
+    background-color: rgb(4, 6, 114)
+}
+.others:active {
+    background-color: #536cf8;
+    color: black;
+}
+@media only screen and (max-width: 600px) {
+
+    table{
+        border: 2px solid black;
+        width: max-content;
+        height: max-content;
+    }
+    td{
+        padding: 2px;
+    }
+    th.name{
+        font-size: 17px;
+    }
+    th.calculator{
+        font-size: 12px;
+    }
+    input[type="button"]{
+        width: 100%;
+        padding: 10px 28px;
+        font-size: 15px;
+    }
+    #del{
+        padding: 10px 5px;
+    }
+    #clear{
+        padding: 10px 10px;
+    }
+    input[type="text"]{
+        border: 2px solid white;
+        padding: 15px 17px;
+        font-size: 20px;
+    }
+    body{
+        background-image: url(Background1.jpg); 
+        background-repeat: no-repeat;
+        background-size:cover;
+    }
+}
